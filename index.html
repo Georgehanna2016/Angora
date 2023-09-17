@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Assigment Route">
+    <meta name="keywords" content="Assigment ">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <nav class="navbar  border-bottom border-1 border-opacity-25 border-white navbar-expand-lg bg-dark bg-opacity-25 fixed-top">
+        <div class="container py-3">
+          <a class="navbar-brand" href="#">
+            <img src="Img/logo-white.png" class="w-100" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-center align-items-center">
+
+
+              <li class="nav-item px-2">
+                <a class="nav-link fw-bold  active" aria-current="page" href="#Home">Home</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link fw-bold" href="#About">About</a>
+              </li> 
+              <li class="nav-item px-2">
+                <a class="nav-link fw-bold" href="#Team">Team</a>
+              </li> 
+              <li class="nav-item px-2">
+                <a class="nav-link fw-bold" href="#Projects">Projects</a>
+              </li> 
+              <li class="nav-item px-2">
+                <a class="nav-link fw-bold" href="#Services">Services</a>
+              </li> 
+              <li class="nav-item px-2">
+                <a class="nav-link fw-bold" href="#Blog">Blog</a>
+              </li> 
+              <li class="nav-item px-2">
+                <a class="nav-link fw-bold" href="#Contact">Contact</a>
+              </li>   
+            </ul>
+              <div class="navIcon d-flex align-items-center justify-content-center">
+                <a class="text-decoration-none mx-2 text-white" href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a class="text-decoration-none mx-2 text-white" href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a class="text-decoration-none mx-2 text-white" href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>  
+          </div>
+        </div>
+
+      </nav>
+      <header id="Home" class="vh-100 position-relative">
+        <div class="homelayer w-100 h-100">
+            <div id="carouselExampleCaptions" class="carousel slide w-100 h-100 position-relative " data-bs-ride="false">
+                <div class="carousel-inner w-100 h-100">
+                  <div class="carousel-item active">
+                    <figure class="position-relative">
+                    <img src="Img/slideshow-1.jpg" class="d-block vh-100 w-100 img-fluid" alt="BackGround">
+                        <figcaption class="position-absolute start-50 top-50 translate-middle text-center text-white">
+                            <h1 class="display-1 fw-bold m-0 p-0" >We build</h1>
+                            <h2 class="display-1 fw-bold m-0 p-0">great brands.</h2>
+                        </figcaption>
+                    </figure>
+                  </div>
+                  <div class="carousel-item">
+                    <figure class="position-relative">
+                        <img src="Img/slideshow-3.jpg" class="d-block vh-100 w-100 img-fluid" alt="BackGround">
+                            <figcaption class="position-absolute start-50 top-50 translate-middle text-center text-white">
+                                <h1 class="display-1 fw-bold m-0 p-0" >Advanced in</h1>
+                                <h2 class="display-1 fw-bold m-0 p-0">digital works.</h2>
+                            </figcaption>
+                        </figure>
+                  </div>
+                  <div class="carousel-item">
+                    <figure class="position-relative">
+                        <img src="Img/slideshow-2.jpg" class="d-block vh-100 w-100 img-fluid" alt="BackGround">
+                            <figcaption class="position-absolute start-50 top-50 translate-middle text-center text-white">
+                                <h1 class="display-1 fw-bold m-0 p-0" >Focused</h1>
+                                <h2 class="display-1 fw-bold m-0 p-0">on strategy.</h2>
+                            </figcaption>
+                        </figure>
+                  </div>
+                </div>
+                <div class="control-Slider position-absolute start-0 border border-1 border-white border-start-0  ">
+                    <div class="py-2 px-3 Prevv position-relative" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <i class="fa-angle-left position-relative  text-white fa-solid fs-3" aria-hidden="true"></i>
+                        <span class="visually-hidden">Previous</span>
+                        <div class="layericon1">                        </div>
+                    </div>
+                    <div class="py-2 px-3 Nextt  border-top border-1 border-white position-relative" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <i class="fa-angle-right position-relative  text-white  fa-solid fs-3" aria-hidden="true"></i>
+                  <span class="visually-hidden">Previous</span>
+                  <div class="layericon2">
+                    
+                  </div>
+                    </div>
+                </div>
+                
+              </div>
+        </div>
+        <a href="#About" class="fixicon mx-auto d-flex justify-content-center align-items-center ">
+            <i class="fa-solid fa-circle text-white fa-xs fa-bounce"></i>
+        </a>
+        <div class="fixicon2 position-fixed start-0 bg-dark bg-opacity-75 p-2 rounded-end ">
+            <a class="text-white text-decoration-none" href=""> 
+            <i class="fa-solid fa-gears"></i>
+
+            </a>
+        </div>
+       
+        
+        
+      </header>
+      <section id="About" class="py-5 text-center">
+        <div class="title py-5 text-center  ">
+            <div class="title1 position-relative">
+                <h2 class="fw-bolder display-2 opacity-25 position-relative " >A</h2>
+                <h3 class="fw-bolder h1 position-absolute bottom-0 end-0 start-0" >About Us</h3>
+            </div>
+            <p class="lead mx-auto px-5 py-3">Pellentesque elementum libero enim, eget gravida nunc laoreet et. Nullam ac enim auctor, fringilla risus at, imperdiet turpis. Pellentesque elementum libero enim.
+
+            </p>
+
+        </div>
+        <div class="container  px-5 pb-5">
+            <div class="row">
+                <div class="col-lg-6  text-start pb-5 pb-lg-0">
+                    <article class=" text-muted">Pellentesque vel elit egestas, pretium est ac, convallis orci. Vivamus sem nisl, tristique vel fringilla vitae, efficitur at eros. Duis aliquet aliquet pharetra. Suspendisse bibendum erat quis gravida pulvinar. Phasellus vel eros porta, blandit dui ac, viverra felis.
+
+                    </article>
+                    <article class=" text-muted py-3">Nunc placerat iaculis pulvinar. Nullam auctor mauris sed urna posuere volutpat. Mauris ut dui sit amet elit fermentum fermentum. Fusce tincidunt diam at bibendum porta.
+                    </article>
+                    <article class=" text-muted">Aliquam nunc felis, sagittis eu purus non, interdum vehicula urna. Vivamus congue diam sapien, eu pellentesque ipsum ultricies quis.
+
+                    </article>
+
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <div class="progtitle d-flex justify-content-between ">
+                            <p class="fw-bold fa-sm"> Branding </p>
+                            <p class="fw-bold fa-sm"> 80%</p>
+                        </div>
+                        <div class="progress">
+                      
+                            <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                       
+                    </div>
+                    <div class="pt-4">
+                        <div class="progtitle d-flex justify-content-between ">
+                            <p class="fw-bold fa-sm"> Web Design
+                            </p>
+                            <p class="fw-bold fa-sm"> 95%</p>
+                        </div>
+                        <div class="progress">
+                      
+                            <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 95%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                       
+                    </div>
+                    <div class="pt-4">
+                        <div class="progtitle d-flex justify-content-between ">
+                            <p class="fw-bold fa-sm"> Graphic Design
+                            </p>
+                            <p class="fw-bold fa-sm"> 85%</p>
+                        </div>
+                        <div class="progress">
+                      
+                            <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 85%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                       
+                    </div>
+                    <div class="pt-4">
+                        <div class="progtitle d-flex justify-content-between ">
+                            <p class="fw-bold fa-sm"> Development
+                            </p>
+                            <p class="fw-bold fa-sm"> 75%</p>
+                        </div>
+                        <div class="progress">
+                      
+                            <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                       
+                    </div>
+                    
+                    
+                    
+                    
+                </div>
+
+            </div>
+        </div>
+
+      </section>    
+      <section id="Team" class="py-5">
+        <div class="title py-5 text-center ">
+            <div class="title1 position-relative">
+                <h2 class="fw-bolder display-2 opacity-25 position-relative " >O</h2>
+                <h3 class="fw-bolder h1 position-absolute bottom-0 end-0 start-0" >Our Team</h3>
+            </div>
+            <p class="lead mx-auto px-5 py-3">Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt urna imperdiet tincidunt rhoncus. Sed mollis ligula non massa aliquam faucibus.
+
+            </p>
+
+        </div>
+        <div class="container w-75 mx-auto pb-5">
+            <div class="row">
+                <div class="col-lg-3 col-md-6  col-sm-6">
+                    <div class="itemteam text-center">
+                        <figure class="position-relative overflow-hidden">
+                            <img src="Img/member-1.jpg" class="w-100 rounded" alt="">
+                            <div class="imgIcons  position-absolute end-0 start-0 top-0 bottom-0 bg-danger bg-opacity-75 d-flex justify-content-center align-items-center ">
+                                <a class="text-decoration-none mx-3 text-white" href="#">
+                                    <i class="fa-brands fa-lg fa-twitter"></i>
+                                </a>
+                                <a class="text-decoration-none mx-3 text-white" href="#">
+                                    <i class="fa-brands fa-lg fa-facebook-f"></i>
+                                </a>
+                                <a class="text-decoration-none mx-3 text-white" href="#">
+                                    <i class="fa-brands fa-lg fa-instagram"></i>
+                                </a>
+                                <a class="text-decoration-none mx-3 text-white" href="#">
+                                    <i class="fa-brands fa-lg fa-linkedin"></i>
+                                </a>
+
+                            </div>
+                        </figure>
+                        <h6 class="fw-semibold">Michael Broad
+                        </h6>
+                        <p class="text-muted">Michael Broad
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-sm-6">
+                    <div class="itemteam text-center">
+                        <figure class="position-relative overflow-hidden">
+                            <img src="Img/member-2.jpg" class="w-100 rounded" alt="">
+                            <div class="imgIcons position-absolute end-0 start-0 top-0 bottom-0 bg-danger bg-opacity-75 d-flex justify-content-center align-items-center ">
+                                <a class="text-decoration-none mx-3 text-white" href="#">
+                                    <i class="fa-brands fa-lg fa-twitter"></i>
+                                </a>
+                                <a class="text-decoration-none mx-3 text-white" href="#">
+                                    <i class="fa-brands fa-lg fa-facebook-f"></i>
+                                </a>
+                                <a class="text-decoration-none mx-3 text-white" href="#">
+                                    <i class="fa-brands fa-lg fa-instagram"></i>
+                                </a>
+                                <a class="text-decoration-none mx-3 text-white" href="#">
+                                    <i class="fa-brands fa-lg fa-linkedin"></i>
+                                </a>
+
+                            </div>
+                        </figure>
+                        <h6 class="fw-semibold">Jeannette Crow
+
+                        </h6>
+                        <p class="text-muted">CEO Founder
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-sm-6">
+                    <div class="itemteam text-center">
+                        <figure class="position-relative overflow-hidden">
+                            <img src="Img/member-3.jpg" class="w-100 rounded" alt="">
+                            <div class="imgIcons position-absolute end-0 start-0 top-0 bottom-0 bg-danger bg-opacity-75 d-flex justify-content-center align-items-center ">
+                                <a class="text-decoration-none mx-3 text-white" href="#">
+                                    <i class="fa-brands fa-lg fa-twitter"></i>
+                                </a>
+                                <a class="text-decoration-none mx-3 text-white" href="#">
+                                    <i class="fa-brands fa-lg fa-facebook-f"></i>
+                                </a>
+                                <a class="text-decoration-none mx-3 text-white" href="#">
+                                    <i class="fa-brands fa-lg fa-instagram"></i>
+                                </a>
+                                <a class="text-decoration-none mx-3 text-white" href="#">
+                                    <i class="fa-brands fa-lg fa-linkedin"></i>
+                                </a>
+
+                            </div>
+                        </figure>
+                        <h6 class="fw-semibold">Martin Lawrence
+
+                        </h6>
+                        <p class="text-muted">App Developer
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-sm-6">
+                    <div class="itemteam text-center">
+                        <figure class="position-relative overflow-hidden">
+                            <img src="Img/member-4.jpg" class="w-100 rounded" alt="">
+                            <div class="imgIcons position-absolute end-0 start-0 top-0 bottom-0 bg-danger bg-opacity-75 d-flex justify-content-center align-items-center ">
+                                <a class="text-decoration-none mx-3 text-white" href="#">
+                                    <i class="fa-brands fa-lg fa-twitter"></i>
+                                </a>
+                                <a class="text-decoration-none mx-3 text-white" href="#">
+                                    <i class="fa-brands fa-lg fa-facebook-f"></i>
+                                </a>
+                                <a class="text-decoration-none mx-3 text-white" href="#">
+                                    <i class="fa-brands fa-lg fa-instagram"></i>
+                                </a>
+                                <a class="text-decoration-none mx-3 text-white" href="#">
+                                    <i class="fa-brands fa-lg fa-linkedin"></i>
+                                </a>
+
+                            </div>
+                        </figure>
+                        <h6 class="fw-semibold">Isabella Dowson
+                        </h6>
+                        <p class="text-muted">Creative Director
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-around container pt-5">
+            <h2 class=" fw-light">Do you have any ideas?            </h2>
+            <button class="btn btn-danger rounded-1 px-3">Contact US</button>
+        </div>
+      </section>
+      <section id="Services" class="py-5 bg-secondary bg-opacity-10 ">
+        <div class="title py-5 text-center  ">
+            <div class="title1 position-relative">
+                <h2 class="fw-bolder display-2 opacity-25 position-relative " >S</h2>
+                <h3 class="fw-bolder h1 position-absolute bottom-0 end-0 start-0" >Services</h3>
+            </div>
+            <p class="lead mx-auto px-5 py-3">Nullam ac enim auctor, fringilla risus at, imperdiet turpis. Pellentesque elementum libero enim, eget gravida nunc laoreet et. Pellentesque elementum libero enim.
+
+            </p>
+
+        </div>
+        <div class="container pb-5">
+            <div class="row gy-5    ">
+                <div class="col-lg-4 col-md-6">
+                    <div class="serItem d-flex">
+                        <div class="iconser px-3">
+                            <i class="fa-solid fa-2xl text-danger fa-laptop"></i>
+                        </div>
+                        <div class="capSer">
+                            <h5 class="fw-semibold">Responsive Layout</h5>
+                            <p class="text-muted pe-3 pt-3">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="serItem d-flex">
+                        <div class="iconser px-3">
+                            <i class="fa-regular fa-2xl text-danger fa-address-card"></i>
+                        </div>
+                        <div class="capSer">
+                            <h5 class="fw-semibold">Intro Slider
+                            </h5>
+                            <p class="text-muted pe-3 pt-3">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="serItem d-flex">
+                        <div class="iconser px-3">
+                            <i class="fa-solid fa-2xl text-danger fa-file-pen"></i>
+                        </div>
+                        <div class="capSer">
+                            <h5 class="fw-semibold">Modern Design
+                            </h5>
+                            <p class="text-muted pe-3 pt-3">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="serItem d-flex">
+                        <div class="iconser px-3">
+                            <i class="fa-solid fa-2xl text-danger fa-font-awesome"></i>
+                        </div>
+                        <div class="capSer">
+                            <h5 class="fw-semibold">Font Awesome Icons
+                            </h5>
+                            <p class="text-muted pe-3 pt-3">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="serItem d-flex">
+                        <div class="iconser px-3">
+                            <i class="fa-solid fa-2xl text-danger fa-gear"></i>
+                        </div>
+                        <div class="capSer">
+                            <h5 class="fw-semibold">Ajax Portfolio
+                            </h5>
+                            <p class="text-muted pe-3 pt-3">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="serItem d-flex">
+                        <div class="iconser px-3">
+                            <i class="fa-solid fa-2xl text-danger fa-video"></i>
+                        </div>
+                        <div class="capSer">
+                            <h5 class="fw-semibold">Color Options
+                            </h5>
+                            <p class="text-muted pe-3 pt-3">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="serItem d-flex">
+                        <div class="iconser px-3">
+                            <i class="fa-solid fa-2xl text-danger fa-headphones"></i>
+                        </div>
+                        <div class="capSer">
+                            <h5 class="fw-semibold">Audio Support
+                            </h5>
+                            <p class="text-muted pe-3 pt-3">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="serItem d-flex">
+                        <div class="iconser px-3">
+                            <i class="fa-solid fa-2xl text-danger fa-sliders"></i>
+                        </div>
+                        <div class="capSer">
+                            <h5 class="fw-semibold">Well Documented
+                            </h5>
+                            <p class="text-muted pe-3 pt-3">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="serItem d-flex">
+                        <div class="iconser px-3">
+                            <i class="fa-solid fa-2xl text-danger fa-wand-magic"></i>
+                        </div>
+                        <div class="capSer">
+                            <h5 class="fw-semibold">Background Videos
+                            </h5>
+                            <p class="text-muted pe-3 pt-3">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+      </section>
+      <section id="Blog" class="py-5 text-center">
+        <section class="title py-5 text-center  ">
+            <div class="title1 position-relative">
+                <h2 class="fw-bolder display-2 opacity-25 position-relative " >C</h2>
+                <h3 class="fw-bolder h1 position-absolute bottom-0 end-0 start-0" >Client Reviews </h3>
+            </div>
+            <p class="lead mx-auto px-5 py-3">Donec purus est, tincidunt quis, vehicula quis enim. Morbi dapibus, tellus a gravida faucibus, elit ipsum sollicitudin risus, id ultricies arcu neque eget velit.
+            </p>
+
+        </section>
+      
+        <section id="carouselExampleIndicators1" class="carousel slide mx-auto pb-5" data-bs-ride="true">
+            <div class="carousel-indicators position-static mx-auto">
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="px-2 " aria-current="true" aria-label="Slide 1">
+                <img src="Img/client-1.png" class="w-100 rounded-circle" alt="profile">
+                <h6 class="opacity-0">Hugh Tace</h6>
+                <p class="opacity-0">From Capital</p>
+              </button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" class=" px-2 " aria-label="Slide 2">
+                <img src="Img/client-2.png" class="w-100 rounded-circle" alt="profile">
+                <h6 class="opacity-0">Jonathon Doe</h6>
+                <p class="opacity-0">From Umbrella</p>
+              </button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" class=" px-2 active " aria-label="Slide 3">
+                <img src="Img/client-3.png" class="w-100 rounded-circle" alt="profile">
+                <h6 class="opacity-0">Shane Catson</h6>
+                <p class="opacity-0">From Massive</p>
+              </button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3"  class=" px-2 " aria-label="Slide 4">
+                <img src="Img/client-4.png" class="w-100 rounded-circle" alt="profile">
+                <h6 class="opacity-0">Chris Wort</h6>
+                <p class="opacity-0">From Soylent</p>
+              </button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="4" class=" px-2 " aria-label="Slide 5">
+                <img src="Img/client-7.png" class="w-100 rounded-circle" alt="profile">
+                <h6 class="opacity-0">Anthony Lee</h6>
+                <p class="opacity-0">From Initech</p>
+              </button>
+              
+              
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+              </div>
+              <div class="carousel-item">
+              </div>
+              <div class="carousel-item">
+            </div>
+            <div class="carousel-item">
+            </div>
+            <div class="carousel-item">
+            </div>
+          
+            
+            </div>
+          </section>
+
+        <section class="py-5">
+            <h3 class="text-muted fw-normal w-50 mx-auto">
+                <i class="fas fa-xl  fa-quote-left"></i>
+                Aenean sit amet est orci. Aenean at nisi eget nulla lobortis commodo. Nam eget lorem in ex aliquam dapibus. 
+                <i class="fas fa-xl fa-quote-right"></i>
+    
+            </h3>
+
+        </section>
+        
+
+      </section>
+      <section id="Contact" class="py-5 bg-secondary bg-opacity-10 " >
+        <div class="title py-5 text-center  ">
+            <div class="title1 position-relative">
+                <h2 class="fw-bolder display-2 opacity-25 position-relative " >G</h2>
+                <h3 class="fw-bolder h1 position-absolute bottom-0 end-0 start-0" >Get In Touch</h3>
+            </div>
+            <p class="lead mx-auto px-5 py-3">Mauris at tempus mi, ut iaculis dui. Integer laoreet mattis justo nec pretium. Ut nibh elit, fermentum vel hendrerit vel, dictum nec velit. Morbi volutpat suscipit.
+
+            </p>
+
+        </div>
+        <div class="container px-5 px-lg-5  px-md-0 "  ">
+            <div class="row">
+                <div class="col-md-6 ps-0 ps-lg-5  ">
+                    <h3 class="fw-bold pb-5 text-md-start text-center">Get answers and advices from professional consultants.
+                    </h3>
+                    <div class="conIcon d-flex border-bottom border-1 py-3">
+                        <div class="pe-3">
+                            <i class="fa-regular text-danger fa-2x fa-map"></i>
+                        </div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>1650 Lombard Street, San Francisco, CA 94123                            </p>
+                        </div>
+                    </div>
+                    <div class="conIcon d-flex border-bottom border-1 py-3">
+                        <div class="pe-3">
+                            <i class="fa-solid text-danger fa-2x fa-mobile-screen-button"></i>
+                        </div>
+                        <div>
+                            <h4>Phone
+                            </h4>
+                            <p>+1 (415) 876-3250 / +1 (415) 876-3251                            </p>
+                        </div>
+                    </div>
+                    <div class="conIcon d-flex py-3">
+                        <div class="pe-3">
+                            <i class="fa-regular text-danger fa-2x fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Say Hello
+                            </h4>
+                            <p>[email protected]  </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-4 ">
+                        <input type="email" class="form-control py-2 px-3 rounded-0" id="exampleFormControlInput1" placeholder="Name">
+                      </div>
+                      <div class="mb-4">
+                        <input type="email" class="form-control py-2 px-3 rounded-0" id="exampleFormControlInput1" placeholder="E-mail">
+                      </div>
+                    
+                    <div class="mb-4">
+                        <input type="email" class="form-control py-2 px-3 rounded-0" id="exampleFormControlInput1" placeholder="Phone">
+                      </div>
+                      <div class="mb-4">
+                        <textarea class="form-control py-2 px-3 rounded-0" id="exampleFormControlTextarea1" rows="5" placeholder="Massage" ></textarea>
+                      </div>
+                      <div class=" text-lg-start text-center ">
+                        <button class="btn btn-danger rounded-1 px-4 py-3 fw-semibold "><i class="fas pe-2 fa-paper-plane "></i> Send Massage</button>
+
+                      </div>
+                </div>
+            </div>
+        </div>
+
+
+      </section>
+      <section id="Info" class="pb-5">
+        <div class="upIcon d-flex mx-auto translate-middle-y  justify-content-center align-items-center rounded-circle bg-danger bg-opacity-50 ">
+            <a href="#Home" class="fa-solid text-decoration-none fa-xl text-white fa-chevron-up"></a>
+        </div>
+        <div class="text-center pt-5">
+            <figure><img src="Img/icon.png" alt="Logo"></figure>
+
+        </div>
+        <div class="container text-white py-4">
+            <div class="row">
+                <div class="col-xl-3 col-lg-6 col-md-6 py-4 py-xl-0 text-center text-md-start px-5">
+                    <div>
+                        <h4 class="fw-semibold">Contact Info</h4>
+                    <p class="text-white-50 fs-6">1650 Lombard Street,
+                        San Francisco, CA 94123</p>
+                    <p class="text-white-50 fs-6">+1 (415) 876-3250
+                    </p>
+                    <a href="" class="text-decoration-none text-white-50 fs-6">[email protected]                    </a>
+                
+
+                    </div>
+                    </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 py-4 py-xl-0 text-center text-md-start px-5">
+                        <div>
+                            <h4 class="fw-semibold">Useful Links
+                            </h4>
+                        <a href="" class="text-decoration-none d-block pb-1 text-white-50 fs-6">Support                    </a>
+                        <a href="" class="text-decoration-none d-block pb-1 text-white-50 fs-6">Privacy Policy                    </a>
+                        <a href="" class="text-decoration-none d-block pb-1 text-white-50 fs-6">Terms & Conditions                    </a>
+                        <a href="" class="text-decoration-none d-block pb-1 text-white-50 fs-6">Affiliate Program                    </a>
+                        <a href="" class="text-decoration-none d-block  text-white-50 fs-6">Careers                   </a>
+                    
+    
+                        </div>
+                        </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 py-4 py-xl-0 text-center text-md-start px-5">
+                            <div>
+                                <h4 class="fw-semibold">Recent Posts</h4>
+                            <a href="" class="text-decoration-none d-block pb-1 text-white-50 fs-6">Sunset in Venice                    </a>
+                            <a href="" class="text-decoration-none d-block pb-1 text-white-50 fs-6">Aerial View of Village                    </a>
+                            <a href="" class="text-decoration-none d-block pb-1 text-white-50 fs-6">Lighted Concrete City                    </a>
+                            <a href="" class="text-decoration-none d-block pb-1 text-white-50 fs-6">The Little Ghost                    </a>
+                            <a href="" class="text-decoration-none d-block  text-white-50 fs-6">Royal Oats ft. Waldo                  </a>
+                        
+        
+                            </div>
+                            </div>
+             <div class="col-xl-3 col-lg-6 col-md-6 py-4 py-xl-0 text-center text-md-start px-5">
+                                <div >
+                                    <h4 class="fw-semibold">Recent Posts</h4>
+                                    <div class="d-flex flex-wrap justify-content-center ">
+                                        <div class="pb-3 pt-1 pe-2">
+                                            <a href="" class="text-decoration-none border-1 border-white rounded border  p-2  pb-1 text-white-50 fs-6">HTML5                    </a>
+    
+                                        </div>
+                                        <div class="pb-3 pt-1 pe-2">
+                                    <a href="" class="text-decoration-none border-1 border-white rounded border  p-2  pb-1 text-white-50 fs-6">CSS3                    </a>
+                                            
+                                        </div>
+                                        <div class="pb-3 pt-1 pe-2">
+                                    <a href="" class="text-decoration-none border-1 border-white rounded border  p-2  pb-1 text-white-50 fs-6">jQuery                   </a>
+                                            
+                                        </div>
+                                        <div class="pb-3 pt-1 pe-2">
+                                    <a href="" class="text-decoration-none border-1 border-white rounded border  p-2  pb-1 text-white-50 fs-6">UX / UI                    </a>
+                                            
+                                        </div>
+                                        <div class="pb-3 pt-1 pe-2">
+                                    <a href="" class="text-decoration-none border-1 border-white rounded border  p-2   text-white-50 fs-6">Web     </a>
+                                            
+                                        </div>
+                                        <div class="pb-3 pt-1 pe-2">
+                                    <a href="" class="text-decoration-none border-1 border-white rounded border  p-2   text-white-50 fs-6">Graphic     </a>
+                                            
+                                        </div>
+                                        <div class="pb-3 pt-1 pe-2">
+                                    <a href="" class="text-decoration-none border-1 border-white rounded border  p-2   text-white-50 fs-6">Design     </a>
+                                            
+                                        </div>
+                                        <div class="pb-3 pt-1 pe-2">
+                                    <a href="" class="text-decoration-none border-1 border-white rounded border  p-2   text-white-50 fs-6">Development     </a>
+                                            
+                                        </div>
+
+                                    </div>
+                                
+                            
+            
+                                </div>
+                                </div>
+                        
+            </div>
+        </div>
+        
+      </section>
+      <footer class="bg-black py-3  ">
+        <div class="footerIcon d-md-flex justify-content-between container text-center  ">
+            <div >
+                <a class="text-decoration-none mx-3 text-white" href="#">
+                    <i class="fa-brands fa-m fa-twitter"></i>
+                </a>
+                <a class="text-decoration-none mx-3 text-white" href="#">
+                    <i class="fa-brands fa-m fa-facebook-f"></i>
+                </a>
+                <a class="text-decoration-none mx-3 text-white" href="#">
+                    <i class="fa-brands fa-m fa-instagram"></i>
+                </a>
+                <a class="text-decoration-none mx-3 text-white" href="#">
+                    <i class="fa-brands fa-m fa-linkedin"></i>
+                </a>
+                <a class="text-decoration-none mx-3 text-white" href="#">
+                    <i class="fa-brands fa-m fa-pinterest"></i>
+                </a>
+
+
+            </div>
+            <div>
+                <p class="text-white-50 m-0">Copyright © 2020 <a href="" class="text-decoration-none text-white-50">Angora</a> </p> 
+            </div>
+        </div>
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

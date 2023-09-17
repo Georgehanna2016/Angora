@@ -1,0 +1,192 @@
+h1 , h2 , h3 , h4 , h5 , h6 {
+   font-family:  "Poppins", sans-serif;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.mainColor{
+    color: #f25454 !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #f25454 !important;
+}
+.navbar-nav .nav-link{
+    color: white;
+    transition: .5s all;
+}
+.navbar-nav .nav-link:hover{
+    color: #f25454 !important;
+}
+.navIcon a:hover {
+    color: #f25454 !important;
+
+}
+.navIcon a{
+    transition: .5s all;
+}
+.control-Slider{
+    top: 40%;
+}
+.Prevv:hover i {
+    color: #f25454 !important;
+    transition: .3s all;
+    z-index: 1;
+
+
+}
+.Nextt:hover i {
+    color: #f25454 !important;
+    transition: .3s all;
+    z-index: 1;
+
+}
+
+.layericon1 , .layericon2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateX(-100%);
+    background-color: rgba(255, 255, 255, 0.599);
+    transition: .5s all;
+    
+}
+.Prevv:hover .layericon1 {
+    transform: translateX(0%);
+
+
+}
+.Nextt:hover .layericon2 {
+    transform: translateX(0%);
+
+
+}
+
+.fixicon {
+    width: 30px;
+    height: 55px;
+    border: 3px solid white ;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);    
+    transition: .5s all;
+}
+.fixicon:hover  {
+    border: 3px solid #f25454 ;
+
+}
+.fixicon:hover i {
+    color: #f25454 !important;
+
+}
+.fixicon i {
+    transition: all .5s;
+}
+.title p {
+    max-width: 850px;
+}
+.title1 h3::before{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 1px;
+    background-color: black !important;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all .3s;
+
+
+}
+.title1:hover h3::before {
+    width: 70px;
+
+
+}
+.progress{
+    height: 6px;
+    
+}
+.progress-bar{
+    background-color: #f25454 !important;
+}
+#About article{
+    font-size: .9rem;
+}
+.imgIcons{
+opacity: 0;
+transition: .3s all;
+}
+#Team .itemteam:hover .imgIcons {
+    opacity: 1;
+}
+#Team .itemteam:hover img {
+    transform: scale(110%);
+}
+#Team .itemteam img {
+    transition: .5s all;
+}
+#Team .itemteam:hover h6{
+    color: #f25454;
+
+}
+
+.serItem:hover h5 {
+    color: #f25454;
+    transition: .2s;
+}
+.conIcon:hover h4 {
+    color: #f25454;
+    transition: .3s all;
+}
+.form-control:focus {
+    border-color: rgb(242, 84, 84);
+    border-top-color: rgb(242, 84, 84);
+    border-right-color: rgb(242, 84, 84);
+    border-bottom-color: rgb(242, 84, 84);
+    border-left-color: rgb(242, 84, 84);
+    box-shadow: 0 0 0 0.25rem rgb(242 84 84/ 25%);
+}
+.fixicon2{
+    top:30%
+}
+#Info {
+    background: rgba(0, 0, 0, 0.871);
+    background-image: url(../Img/dotted-map.png);
+    background-size: contain;
+    
+}
+.upIcon{
+    width: 50px;
+    height: 50px;
+}
+#Info  a:hover{
+    color: #f25454 !important;
+    border-color: #f25454 !important;
+    transition: .5s all ;
+}
+footer  a:hover{
+    color: #f25454 !important;
+    transition: .5s all ;
+}
+#carouselExampleIndicators1 button {
+    width: 120px;
+    height: 120px;
+    text-indent:0 !important;
+
+  
+}
+#carouselExampleIndicators1 button.active{
+    width: 150px;
+    height: 150px;
+    text-indent:0 !important;
+    transition: all .5s;
+}
+#carouselExampleIndicators1 button.active h6 ,#carouselExampleIndicators1 button.active p{
+opacity: 1 !important;
+}
+
